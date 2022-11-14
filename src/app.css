@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Horror";
+    src: url('./font1.otf');
+}
+
+body{
+    @apply bg-black ;
+}
+
+.hor{
+    font-family: Horror;
+    @apply text-red-500;
+}
